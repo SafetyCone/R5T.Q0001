@@ -31,7 +31,7 @@ $@"
         {
             var summaryText = "Common generation, initial, parse, text sourcing, text constants for Roslyn syntax elements.";
 
-            var documentation = Instances.SyntaxGenerator.GetSummaryDocumentationCommentSyntax(summaryText);
+            var documentation = Instances.SyntaxGenerator.SummaryDocumentationComment(summaryText);
 
             var codeFileName = "Documentation02.cs";
 
